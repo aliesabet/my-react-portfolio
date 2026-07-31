@@ -1,4 +1,4 @@
-import aboutImg from "../assets/images/about.jpeg";
+import aboutImg from "../../assets/images/about.jpeg";
 function About(){
     return(
             <section id="about">

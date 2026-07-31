@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from "./components/Header";
-import About from "./components/About";
-import Services from "./components/Services";
-import Blog from "./components/Blog";
-import Footer from "./components/Footer";
+import Header from "./components/header/Header";
+import About from "./components/about/About";
+import Services from "./components/services/Services";
+import Blog from "./components/blog/Blog";
+import Footer from "./components/footer/Footer";
 function App() {
 
   return (

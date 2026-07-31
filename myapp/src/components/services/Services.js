@@ -1,5 +1,4 @@
-import ServiceCard from "./ServiceCard";
-
+import ServiceCard from "../servicecard/ServiceCard";
 function Services() {
   return (
     <>
