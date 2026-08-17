@@ -1,11 +1,12 @@
-.service-box{
+.service-box {
     background-color: #fff;
     box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
     text-align: center;
     padding: 30px;
     border-radius: 10px;
 }
-.service-box .service-icon{
+
+.service-box .service-icon {
     width: 100px;
     height: 100px;
     display: inline-flex;
@@ -15,12 +16,44 @@
     border-radius: 50%;
     padding: 1rem;
 }
-.service-box .service-icon i{
+
+.service-box .service-icon i {
     font-size: 2rem;
 }
-.service-content .service-title{
+
+.service-content .service-title {
     padding: 1rem 0;
 }
-.service-content .service-info{
+
+.service-content .service-info {
     color: #4e4e4e;
+}
+
+
+/* Mobile */
+@media (max-width: 480px) {
+    .service-box {
+        padding: 20px 15px;
+    }
+
+    .service-box .service-icon {
+        width: 80px;
+        height: 80px;
+        border-width: 8px;
+        padding: 0.75rem;
+    }
+
+    .service-box .service-icon i {
+        font-size: 1.5rem;
+    }
+
+    .service-content .service-title {
+        padding: 0.75rem 0;
+        font-size: 1.25rem;
+    }
+
+    .service-content .service-info {
+        font-size: 14px;
+        line-height: 1.7;
+    }
 }

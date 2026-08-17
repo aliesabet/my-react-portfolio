@@ -1,16 +1,43 @@
-.about{
+.about {
     text-align: center;
-    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%),
+                0 2px 5px 0 rgb(0 0 0 / 20%);
     background: #fff;
     padding: 30px 0;
 }
-.about .title{
+
+.about .title {
     padding-bottom: 30px;
 }
-.about .info{
+
+.about .info {
     text-align: justify;
     padding: 10px 80px;
 }
-.about-img{
+
+.about-img {
     border-radius: 20px;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+    .about {
+        padding: 25px 15px;
+    }
+
+    .about .title {
+        padding-bottom: 20px;
+    }
+
+    .about .info {
+        padding: 10px 15px;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .about-img {
+        max-width: 100%;
+        height: auto;
+    }
 }

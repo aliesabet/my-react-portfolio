@@ -1,6 +1,13 @@
-footer{
+footer {
     text-align: center;
     color: #fff;
-    padding: 25px 0;
+    padding: 25px 15px;
     background: #0062d3;
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 20px 15px;
+        font-size: 14px;
+    }
 }
